@@ -1,5 +1,6 @@
 # video-game-revenue-prediction-
-CatBoost + Optuna based ML model to predict video game revenue (RMSLE metric) for the ML.ai Hackathon 2026 on Kaggle. Includes EDA, feature engineering, OOF target encoding, and hyperparameter tuning. Achieved Rank 19 with score 0.72495.
+CatBoost + Optuna based ML model to predict video game revenue (RMSLE metric) for the ML.ai Hackathon 2026 on Kaggle. Includes EDA, feature engineering, OOF target encoding, and hyperparameter tuning. Achieved Rank 19 with score 0.70382
+.
 
 ##  About the Hackathon
 
@@ -16,7 +17,7 @@ Given a dataset of video games with associated features (genre, platform, publis
 | Metric | Value |
 |--------|-------|
 | **Leaderboard Rank** | 19 |
-| **Best Score (RMSLE)** | 0.72495 |
+| **Best Score (RMSLE)** | 0.70382 |
 | **Model Used** | CatBoost with Optuna Hyperparameter Tuning |
 
 ##  Approach
@@ -57,7 +58,7 @@ Given a dataset of video games with associated features (genre, platform, publis
 - Feature selection to reduce noise
 - Try stacking/blending for improved RMSLE
 
-## 🙋 Author
+## Author
 
 **Naman Khorwal**
 B.Tech, Bioscience & Bioengineering (BSBE), IIT Guwahati
